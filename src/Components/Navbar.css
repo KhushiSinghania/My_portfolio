@@ -6,9 +6,11 @@
   --primary-dark:rgba(255,255,255,0)
 }
 body{
- font-family:"Roboto Condesed" sans-serif; 
+ font-family:"Roboto Condesed", sans-serif; 
 }
-
+nav{
+  z-index: 2;
+}
 .navbar-brand img{
   max-width: 17.25rem;
 
