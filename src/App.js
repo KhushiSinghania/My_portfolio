@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
+import Contacts from "./Components/Contacts";
+import Education from "./Components/Education";
 import Particles from "react-tsparticles";
+import Experience from "./Components/Experience";
+import About from "./Components/About";
+
 function App() {
   return (
     <>
@@ -22,6 +27,13 @@ function App() {
    />
   <Navbar/>
   <Header/>
+  <About/>
+  
+  <Education/>
+  <Experience/>
+  
+  <Contacts/>
+
   </>
   );
 }

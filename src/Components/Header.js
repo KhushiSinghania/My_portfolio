@@ -6,6 +6,7 @@ import Typed from "react-typed";
 const Header = () => {
     return (
         <div className="header-wraper" >
+            
             <div className="main-info">
                 <h1>HEYO! THIS IS KHUSHI SINGHANIA</h1>
                 <Typed 

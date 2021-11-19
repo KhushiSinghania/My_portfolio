@@ -5,7 +5,8 @@
 
 .header-wraper {
     position:relative;
-    background: url(../portfolio-background.png) no-repeat;
+    /* background: url(../portfolio-background.png) no-repeat; */
+    overflow-y: hidden !important;
     background-size: cover;
     background-color: black;
     background-position:center ;
